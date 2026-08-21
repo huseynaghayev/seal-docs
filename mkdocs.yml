@@ -1,0 +1,35 @@
+site_name: Seal Documentation
+repo_url:  https://github.com/huseynaghayev/seal
+repo_name: huseynaghayev/seal
+edit_uri:  https://github.com/huseynaghayev/seal/edit/master/
+
+theme:
+  name: material
+  logo: img/favicon.png
+  favicon: img/favicon.png
+  features:
+  - content.action.edit
+  - content.action.view
+
+extra:
+  homepage: https://seallang.org
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Syntax:
+      - Overall: syntax/index.md
+      - Comments: syntax/comment.md
+      - Variables: syntax/variables.md
+      - Types: syntax/types.md
+      - Operators: syntax/operators.md
+      - Control Flow: syntax/control.md
+      - Functions: syntax/function.md
+      - Strings: syntax/string.md
+      - Lists: syntax/list.md
+      - Maps: syntax/map.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
